@@ -42,4 +42,3 @@ const objs2 = {
 // console.log("A" , "B");
 // console.log(("A" , "B"));
 
-
