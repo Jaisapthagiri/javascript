@@ -8,5 +8,3 @@ let a = "IASDF";
 let str = "a-b-c";
 console.log(str.replaceAll("-",""));
 console.log(typeof "hello".replaceAll);
-
-
