@@ -34,7 +34,7 @@ const userDetails = {
 }
 
 // for (let key in userDetails) {
-//     console.log(key);
+//     console.log(userDetails[key]);
 // }
 
 const obj1 = {
