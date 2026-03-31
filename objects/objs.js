@@ -38,7 +38,18 @@ const objs2 = {
     }
 }
 
+for(let obs of objs2){
+    console.log(obs);
+}
+
 // console.log(objs2.greet());
 // console.log("A" , "B");
 // console.log(("A" , "B"));
 
+const greet = {
+    greeting(){
+        console.log("Say Hello!!");
+    }
+}
+
+greet.greeting()
