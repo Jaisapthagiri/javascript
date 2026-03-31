@@ -61,7 +61,7 @@ const user = {
     }
 }
 
-const {userName, age, city, ...others} = user;
+const { userName, age, city, ...others } = user;
 
 console.log(userName);
 console.log(age);
@@ -69,13 +69,13 @@ console.log(city);
 console.log(others);
 
 
-for(let key in user){
-    console.log(key + " : " +  user[key]);
+for (let key in user) {
+    console.log(key + " : " + user[key]);
 }
 
 let data = [10, 2, 30, 4, 78, 100, 65, 79, 96, 250, 25, 4, 55, 69, 69, 2, 0, 2, 33, 24, 35, 25, 55, 65];
 
-for(let val of data){
+for (let val of data) {
     console.log(val);
 }
 
@@ -88,4 +88,12 @@ console.log(cf);
 console.log(a);
 console.log(dd);
 
+// let fruits = ["apple","banana","orange","cherry"];
+// console.log(fruits.shift());
+// console.log(fruits.unshift("some"));
+// console.log(fruits);
+
+let fruits1 = [];
+fruits1[123] = "apple";
+console.log(fruits1);
 
