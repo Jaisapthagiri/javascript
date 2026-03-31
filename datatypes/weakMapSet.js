@@ -1,23 +1,23 @@
 let wm = new WeakMap();
 
-let user = {
-    name: "Jai",
-    age: 22,
-    role: "admin"
-}
+// let user = {
+//     name: "Jai",
+//     age: 22,
+//     role: "admin"
+// }
 
-wm.set(user,
-    {
-        city: "erode"
-    }
-)
+// wm.set(user,
+//     {
+//         city: "erode"
+//     }
+// )
 
 // console.log(user);
 // console.log(wm.get(user));
 
-const objs2 = {
-    name: "tennyson",
-    age: 15,
+const user = {
+    name: "asdf",
+    age: 0,
     city: "bellwood",
     language: "tamil",
     gender: "male",
@@ -25,6 +25,10 @@ const objs2 = {
         console.log("The Name is " + this.name + " age is " + this.age);
     }
 }
+
+console.log(user.name ?? "jai" );
+console.log(user.age || 15 );
+
 
 // for (let key of Object.keys(objs2)){
 //     console.log(key);
