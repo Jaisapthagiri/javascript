@@ -39,13 +39,15 @@ map.set(3, "gwen")
 // console.log(map.delete(2));
 // console.log(map.size);
 // console.log("Iterator st");
-for (let [k, v] of map.entries()) {
-    console.log(k, v);
-}
+// for (let [k, v] of map.entries()) {
+//     console.log(k, v);
+// }
 // console.log("Iterator end");
 // console.log(map.keys());
 // console.log(map.values());
 // console.log(map.entries());
+
+// set
 
 const set = new Set();
 
@@ -57,9 +59,11 @@ set.add(4)
 // console.log(set.delete(1));
 // console.log(set.has(3));
 // console.log(set.keys());
-console.log(set.entries());
+// console.log(set.entries());
 // console.log(set.clear());
 
 // for (let [k, v] of set.entries()) {
 //     console.log(k, v);
 // }
+
+

@@ -1,7 +1,19 @@
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// arrs
+
+let ars = [
+    1, "asdf", true, null, undefined, 123e10, 123432545433465435345324534n,
+    { name: "Jai", age: 20 }
+]
+
+// console.log(ars);
+
+//  arr methods
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // console.log(arr[0]);
-// console.log(arr[-1]);
+// console.log(arr[arr.length -1]);
+// console.log(arr.at(-1));
 // arr[1] = 100;
 // console.log(arr);
 // console.log(arr.length);
@@ -55,24 +67,19 @@ let tot = popul.reduce((acc, val) => acc + val, 0);
 
 let data = [10, 2, 30, 4, 78, 100, 65, 79, 96, 250, 25, 4, 55, 69, 69, 2, 0, 2, 33, 24, 35, 25, 55, 65];
 
-for (let val of data) {
-    console.log(val);
-}
+// for (let val of data) {
+//     console.log(val);
+// }
 
-let copyData = [...data]
-console.log(copyData);
 
-let [a, dd, ...cf] = data;
-
-console.log(cf);
-console.log(a);
-console.log(dd);
-
-// let fruits = ["apple","banana","orange","cherry"];
+let fruits = ["apple", "banana", "orange", "cherry"];
 // console.log(fruits.shift());
 // console.log(fruits.unshift("some"));
 // console.log(fruits);
 
+
+// sparse arr
+
 let fruits1 = [];
 fruits1[123] = "apple";
-console.log(fruits1);
+// console.log(fruits1);
