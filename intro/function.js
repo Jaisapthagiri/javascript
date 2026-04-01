@@ -35,7 +35,7 @@ val(6, 5);
 function works(p, q) {
     return p + q;
 }
-let add = (price, quantity) => {
+let add = function (price, quantity)  {
     console.log(works(price, quantity));
 }
 add(10, 20);

@@ -5,9 +5,11 @@
 
 // document.getElementById("demo").innerText = userName;
 
+
 // alert  
 
 // alert('Hey man')
+
 
 // confirm 
 
@@ -42,11 +44,6 @@ console.log(10 + "5");
 
 // console.log(val);
 
-let arr = [10, 20, 40, 30, 50, 70];
-
-// for(let val of arr){
-//     console.log(val);
-// }
 
 // let func = function () {
 //     console.log("Welcome");
@@ -58,12 +55,3 @@ let arr = [10, 20, 40, 30, 50, 70];
 
 // console.log(null ?? "Default");
 // console.log(0 ?? 100);
-
-// for (var i = 0; i < 3; i++) {
-//   console.log(i);
-// }
-// console.log(i);
-
-
-x =10
-x++
