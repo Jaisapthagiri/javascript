@@ -22,3 +22,5 @@ objs3.city = "dholakpur";
 // console.log(objs);
 // console.log(objs3);
 
+// Object.assing
+// Structured Clone

@@ -4,15 +4,15 @@ let a = "IASDFeEaDf";
 
 // console.log(a.toUpperCase());
 // console.log(a.toLowerCase());
-// console.log(a.toLocaleLowerCase())
+// console.log(a.toLocaleLowerCase(en))
 // console.log(a.includes("e"));
 // console.log(a.startsWith("h"));
 // console.log(a.endsWith("h"));
 // console.log(a.indexOf("h"));
 // console.log(a.lastIndexOf("h"));
 // console.log(a.search("h"));
-// console.log(a.slice(1,3));  
-// console.log(a.substring(1,3));  
+console.log(a.slice(1,3));  
+console.log(a.substring(3,1));  
 
 let str = "a-b-c";
 
@@ -70,6 +70,7 @@ let num1 = -3.9;
 // trunc 
 
 // console.log(Math.trunc(num));
+// math rand usage
 
 let numVal = 12.356
 

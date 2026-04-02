@@ -77,6 +77,8 @@ let fruits = ["apple", "banana", "orange", "cherry"];
 // console.log(fruits.unshift("some"));
 // console.log(fruits);
 
+// arr.some
+// arr.sort
 
 // sparse arr
 

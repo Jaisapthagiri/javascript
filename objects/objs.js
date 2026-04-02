@@ -4,17 +4,33 @@ const objs = {
     c: "city",
 };
 
-delete objs.c;
+const user = {
+    uname : "some",
+    uval : "asdf"
+}
 
-console.log(objs);
+objs.user = user;
 
-console.log("a" in objs);
+// console.log(objs);
+// console.log(objs.hasOwnProperty("a"));
+// console.log(objs.hasOwnProperty("uname"));
+// console.log("uname" in objs);
+// console.log(Object.hasOwn(user,"uname"));
 
-console.log(objs["a"]);
+// console.log(Object.assign(objs,user));
+// console.log(user);
 
-objs.d = "new one";
 
-console.log(objs);
+// console.log(objs);
 
-console.log(objs);
+// console.log("a" in objs); // hasOwnProperty
 
+// console.log(objs["a"]);
+
+// objs.d = "new one";
+
+// console.log(objs);
+
+// console.log(objs);
+
+// delete objs.c;

@@ -17,16 +17,6 @@ recipeMap.set(
 
 // console.log(recipeMap);
 
-const a1 = ['cabbage']
-const a2 = ['cabbage']
-
-const a3 = 'cabbage'
-const a4 = 'cabbage'
-
-// console.log(a1 == a2);
-// console.log(a1 === a2);
-// console.log(a3 === a4);
-// console.log(a3 == a4);
 
 let map = new Map();
 
