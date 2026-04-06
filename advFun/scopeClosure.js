@@ -1,31 +1,31 @@
 // sayHello("Arthur", "Morgan");
 
-function sayHello(firstName, LastName) {
+// function sayHello(firstName, LastName) {
 
-    function greet() {
-        return firstName + " " + LastName;
-    }
+//     function greet() {
+//         return firstName + " " + LastName;
+//     }
 
-    console.log("Hello " + greet());
+//     console.log("Hello " + greet());
 
-    console.log("Bye " + greet());
+//     console.log("Bye " + greet());
 
-}
+// }
 
-if (true) {
-    var ans = true;
-}
+// if (true) {
+//     var ans = true;
+// }
 // console.log(ans);
 
-function asdf() {
-    var phrase = "asdf";
-    var phrase;
-    console.log(phrase);
-}
+// function asdf() {
+//     var phrase = "asdf";
+//     var phrase;
+//     console.log(phrase);
+// }
 // asdf();
 
-asdf = 20;
-var asdf;
+// asdf = 20;
+// var asdf;
 // console.log(asdf);
 
 // (function(){
@@ -46,3 +46,5 @@ var asdf;
 // console.log(pow(2, 3));
 
 
+import ab  from "./global.js"
+// console.log(ab);

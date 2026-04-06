@@ -39,6 +39,7 @@ const user = {
             name: this.name
         };
     }
+
 };
 
 // console.log(JSON.stringify(user));

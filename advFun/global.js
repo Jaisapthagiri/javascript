@@ -27,10 +27,31 @@
 
 // test(greet);
 
-function f1(...arr){
-    console.log("asdf");
-}
+// function f1(...arr){
+//     console.log("asdf");
+// }
 
-f1([1,2,3,4,4,5,6,8,7,7,6])
+// f1([1,2,3,4,4,5,6,8,7,7,6])
 
-console.log(f1.length);
+// console.log(f1.length);
+
+// globalThis.ab = 20;
+
+// console.log("Start");
+
+// const id = setInterval(() => {
+//   console.log("Timeout");
+// }, 100);
+
+// setTimeout(() => {
+//     clearInterval(id)
+// },5000)
+
+const id = setInterval(() =>{
+    const now = new Date();
+    console.log(now.getSeconds());
+},250)
+
+setTimeout(() =>{
+    clearInterval(id)
+},5000)

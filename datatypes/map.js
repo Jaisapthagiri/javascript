@@ -18,10 +18,10 @@ recipeMap.set(
 // console.log(recipeMap);
 
 
-let map = new Map();
+let map = new Set();
 
 map.set(1, "Ben")
-map.set(2, "Max")
+map.set(1, "Max")
 map.set(3, "gwen")
 
 // console.log(map.get(1));
