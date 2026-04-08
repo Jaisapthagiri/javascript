@@ -1,5 +1,6 @@
 "use strict"
 
+
 let content = {
     Story: "rdr2",
     Protagonist: "Arthur",
@@ -8,7 +9,7 @@ let content = {
     Antagonist: "Micheal"
 }
 
-// content.Lead = "Dutch Van der Lee"
+
 
 // Object.keys(content).forEach(key => {
 //     Object.defineProperty(content, key, {
@@ -18,6 +19,8 @@ let content = {
 //         configurable: false
 //     });
 // })
+
+// content.Lead = "Dutch Van der Lee"
 
 // delete content.Protagonist2;
 
@@ -46,7 +49,7 @@ let rockStar = {
         return "friends are " + this.Protagonist + " " + this.Protagonist2
     },
 
-    set friends(value){
+    set friends2(value){
         [this.Protagonist , this.Protagonist2] = value.split(" ")
     }
 }
@@ -54,6 +57,19 @@ let rockStar = {
 rockStar.Protagonist="Arthur Morgan"
 rockStar.Protagonist2="John Marston"
 
-console.log(rockStar.Protagonist);
-console.log(rockStar.Protagonist2);
+// console.log(rockStar.friends);
+// console.log(rockStar.friends2);      // check why the error come
+
+                    
+// TypeError: rockStar.friends2 is not a function
+//     at Object.<anonymous> (D:\js\objProProto\config.js:61:22)
+//     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+//     at Object..js (node:internal/modules/cjs/loader:1943:10)
+//     at Module.load (node:internal/modules/cjs/loader:1533:32)
+//     at Module._load (node:internal/modules/cjs/loader:1335:12)
+//     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+//     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+//     at node:internal/main/run_main_module:33:47
+
+// Node.js v24.14.1
 

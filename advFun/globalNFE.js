@@ -1,7 +1,7 @@
 // var a = 10;
 // let b = 20;
 // const c = 30;
- 
+
 // console.log(window.a);
 // console.log(window.b);
 // console.log(window.c);
@@ -10,7 +10,7 @@
 
 // console.log(typeof asdf);
 
-function sayHi(){
+function sayHi() {
     console.log("asdf");
 }
 
@@ -26,6 +26,17 @@ console.log(sayHi.name);
 // }
 
 // test(greet);
+
+const greet = function sayHello(name) {
+    return `Hello ${name}`;
+};
+
+// console.log(greet("Jai"));
+
+let sum = new Function('a', 'b', 'return a + b');
+
+// console.log(sum(1,3));
+
 
 // function f1(...arr){
 //     console.log("asdf");
@@ -47,11 +58,12 @@ console.log(sayHi.name);
 //     clearInterval(id)
 // },5000)
 
-const id = setInterval(() =>{
+const id = setInterval(() => {
     const now = new Date();
     console.log(now.getSeconds());
-},250)
+}, 250)
 
-setTimeout(() =>{
+setTimeout(() => {
     clearInterval(id)
-},5000)
+}, 5000)
+

@@ -38,7 +38,7 @@ obj = Object.fromEntries(
 
 obj = {}
 
-console.log(obj);
+// console.log(obj);
 
 // ma.set(obj, {
 //     role: "admin",
@@ -67,3 +67,17 @@ console.log(obj);
 // (function(){
 //     console.log("Say Hai");
 // })();
+
+// setTimeout(()=>{
+//     console.log("0 Milli");
+// },0)
+
+// console.log("asdf");
+
+// console.log("A");
+
+// setTimeout(() => console.log("B"), 0);
+
+// console.log("C");
+
+

@@ -60,8 +60,39 @@ const objs = {
 
 // function object code
 
-// client & server side run time env
+// client & server side run time env 
+
+//what are all in clientside run time
 
 // settimeout in 0milisec
 
 // arrow function
+
+// queueMicrotask()
+
+// console.log("A");
+// queueMicrotask(() => console.log("B"));
+// console.log("C");
+
+// let a = 10;
+
+// function outer() {
+
+//     let b = 20;
+
+//     function inner() {
+//         console.log(a);
+//         console.log(b);
+//     }
+
+//     inner();
+// }
+
+// outer()
+// console.log(a);
+
+// console.log(typeof Nan);
+
+
+
+//  deeper on call and apply
