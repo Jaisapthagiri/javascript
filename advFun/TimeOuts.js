@@ -3,7 +3,7 @@
 // }
 
 // setTimeout(greet, 2000);
-
+ 
 // function goodBye(fName, lName) {
 //     console.log("Good Bye " + fName + " and " + lName);
 // }
@@ -46,3 +46,11 @@ let deleteThis;
 //     console.log("asdf");
 //     timerId = setTimeout(tick,1500)
 // }, 2000)
+
+// setTimeout(() => {
+//     console.log("asdf");
+    
+// },0)
+
+
+console.log(globalThis.clearInterval);

@@ -1,7 +1,7 @@
 // var a = 10;
 // let b = 20;
 // const c = 30;
-
+ 
 // console.log(window.a);
 // console.log(window.b);
 // console.log(window.c);
@@ -10,11 +10,11 @@
 
 // console.log(typeof asdf);
 
-// function sayHi(){
-//     console.log("asdf");
-// }
+function sayHi(){
+    console.log("asdf");
+}
 
-// console.log(sayHi.name);
+console.log(sayHi.name);
 
 // function greet() {
 //     console.log("Hello");
@@ -41,7 +41,7 @@
 
 // const id = setInterval(() => {
 //   console.log("Timeout");
-// }, 100);
+// }, 100); 
 
 // setTimeout(() => {
 //     clearInterval(id)

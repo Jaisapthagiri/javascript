@@ -1,15 +1,11 @@
 // sayHello("Arthur", "Morgan");
 
 // function sayHello(firstName, LastName) {
-
 //     function greet() {
 //         return firstName + " " + LastName;
 //     }
-
 //     console.log("Hello " + greet());
-
 //     console.log("Bye " + greet());
-
 // }
 
 // if (true) {
@@ -33,7 +29,7 @@
 //     console.log(name);
 // })()
 
-// rec
+// rec  // check this in depth
 
 // function pow(x, n) {
 //     if (n == 1) {
@@ -46,5 +42,5 @@
 // console.log(pow(2, 3));
 
 
-import ab  from "./global.js"
+// import ab  from "./global.js"
 // console.log(ab);

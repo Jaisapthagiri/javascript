@@ -14,9 +14,15 @@ const objs = {
     state: "TN"
 }
 
+// const {city, ...newObjs} = objs;
+
+// console.log(newObjs);
+
+
 // console.log(objs?.education?.ug);
 
 // if (objs && objs.education && objs.education.pg) {
 //     console.log(objs.education.pg); 
 // }
+
 

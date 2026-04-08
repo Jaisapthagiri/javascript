@@ -8,13 +8,7 @@
 
 // hasOwnProperty
 
-// immmediately invoked func exp // indepth
-
-// commonJS and module diff
-
-// arr.some
-
-// arr.sort  // indepth
+// arr.some and every
 
 // reduce(Big Concept)
 
@@ -50,5 +44,24 @@ const objs = {
 // const [a,w,f,...e] = arr;
 // console.log(e);
 
+// commonJS and module diff
+
+// immmediately invoked func exp // indepth
+
+// es
+
+// arr.sort  // indepth
+
 
 // toJSON
+
+
+// lexical scope
+
+// function object code
+
+// client & server side run time env
+
+// settimeout in 0milisec
+
+// arrow function
