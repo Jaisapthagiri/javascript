@@ -1,12 +1,12 @@
-function asdf(){
+function asdf() {
     console.log("Hello");
 }
 
-const id = setInterval(()=>asdf(),1000);
+const id = setInterval(() => asdf(), 1000);
 
-setTimeout(() => clearInterval(id),5000)
+setTimeout(() => clearInterval(id), 5000)
 
-const user = { 
+const user = {
     name: "Arthur",
     sayHi() {
         console.log(
@@ -14,8 +14,16 @@ const user = {
     }
 }
 
+const user2 = {
+    name: "john",
+    age: 12
+}
+
 setTimeout(user.sayHi, 1000);
 setTimeout(user.sayHi.bind(user), 1000)
+
+const returnUser = user.sayHi.bind(user2)
+returnUser()
 
 const fn = user.sayHi.bind(user);
 console.log(fn());
@@ -48,3 +56,22 @@ console.log(fn());
 // globalThis.a = 10
 
 // console.log(globalThis);
+
+
+// bind is used to return the function
+
+const userName = {
+    name: "Arthur",
+    age: 42,
+    greet() {
+        return `Hello Mr.${this.name}`;
+    }
+};
+const userName2 = {
+    name: "Dutch van der lee",
+    age: 42,
+};
+
+let f = userName.greet.bind(userName2);
+
+// console.log(f());

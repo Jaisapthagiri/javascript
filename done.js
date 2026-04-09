@@ -1,1 +1,0 @@
-// Event Loop behaviour, JS and JS run time, forwarding, decorator, call/apply,

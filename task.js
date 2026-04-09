@@ -33,7 +33,7 @@ const objs = {
 
 // this ❌ is NOT objs
 // this 👉 points to global (or undefined in strict mode)
- 
+
 
 // weak map & set
 // const { name, age} = objs;
@@ -46,33 +46,21 @@ const objs = {
 
 // commonJS and module diff
 
-// immmediately invoked func exp // indepth
+// immmediately invoked func exp 
 
 // es
 
-// arr.sort  // indepth
-
+// arr.sort
 
 // toJSON
-
 
 // lexical scope
 
 // function object code
 
-// client & server side run time env 
-
-//what are all in clientside run time
-
 // settimeout in 0milisec
 
 // arrow function
-
-// queueMicrotask()
-
-// console.log("A");
-// queueMicrotask(() => console.log("B"));
-// console.log("C");
 
 // let a = 10;
 
@@ -94,5 +82,51 @@ const objs = {
 // console.log(typeof Nan);
 
 
+// client & server side run time env 
+
+// what are all in clientside run time
 
 //  deeper on call and apply
+
+// let Uname = "Micheal";
+
+let rockStar = {
+    Story: "rdr2",
+    Protagonist: "Arthur",
+    Protagonist2: "John",
+    Lead: "Dutch",
+    Antagonist: "Micheal",
+
+    // greet(){
+    //     console.log(`${Uname}`);
+    // },
+
+    get friends() {
+        return "friends are " + this.Protagonist + " & " + this.Protagonist2
+    },
+
+    set friends(value) {
+        [this.Protagonist, this.Protagonist2] = value.split(" ")
+    }
+
+}
+
+// console.log(rockStar.greet());
+
+// rockStar.Protagonist="Arthur Morgan"
+// rockStar.Protagonist2="John Marston"
+
+// console.log(rockStar.friends);
+
+// console.log(rockStar.friends2);      // check why the error come
+
+// TypeError: rockStar.friends2 is not a function
+//     at Object.<anonymous> (D:\js\objProProto\config.js:61:22)
+//     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+//     at Object..js (node:internal/modules/cjs/loader:1943:10)
+//     at Module.load (node:internal/modules/cjs/loader:1533:32)
+//     at Module._load (node:internal/modules/cjs/loader:1335:12)
+//     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+//     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+//     at node:internal/main/run_main_module:33:47
+
