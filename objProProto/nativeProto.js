@@ -17,4 +17,20 @@ objt.name = "Morgan";
 // console.log(objt.name);
 // console.log(objt.__proto__);
 
+let animal = {
+  eats: true
+};
+
+let rabbit = Object.create(animal);
+
+// console.log(rabbit.eats); 
+
+let animal1 = { eats: true };
+let rabbit1 = {};
+
+Object.setPrototypeOf(rabbit1, animal1);
+
+// console.log(Object.getPrototypeOf(rabbit1) === animal1); 
+
+
 
