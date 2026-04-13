@@ -64,11 +64,27 @@ class UD extends UserData {
 
 }
 
-const u1 = new UserData("Jack", "jack@gmail.com", "Developer", "Admin", 22);
-// console.log(u1.greet());
+// const u1 = new UserData("Jack", "jack@gmail.com", "Developer", "Admin", 22);
+// // console.log(u1.greet());
 
-// console.log(u1.getFullDetails());
-// console.log(u1.greet());
+// // console.log(u1.getFullDetails());
+// // console.log(u1.greet());
 
-const data = new UD("John", "john@gmail.com", "cloud", "user", 25, "no responsive")
-console.log(data.welcome());
+// const data = new UD("John", "john@gmail.com", "cloud", "user", 25, "no responsive")
+// console.log(data.welcome());
+
+class A {
+    method = () => "A";
+    // method() {
+    //     return "A";
+    // }
+}
+
+class B extends A {
+    method() {
+        return "B";
+    }
+}
+
+// console.log(new B().method());
+
