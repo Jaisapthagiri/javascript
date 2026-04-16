@@ -23,7 +23,7 @@ class User {
     }
 
     set uName(value) {
-        if (value.length < 4) {
+        if (value && value.length < 4) {
             throw new Error("Username must be at least 4 characters");
         }
         this._uName = value;
@@ -32,13 +32,18 @@ class User {
     static isValidUser(user) {
         return user.uEmail.includes("@");
     }
+    
 }
 
 
 // usage
 const u2 = new User("John", "john@gmail.com", "234fs42rfsa");
 const u3 = new User("Dutch", "ducth@gmail.com", "p9lj98bkjj");
+const u4 = new User();
 
-console.log(u2.gety());
-console.log(u3.getUserDetails());
-console.log(User.isValidUser(u2));
+// console.log(u2.gety());
+// console.log(u3.getUserDetails());
+// console.log(User.isValidUser(u2));
+console.log(u4);
+
+

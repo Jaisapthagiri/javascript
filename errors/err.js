@@ -1,12 +1,14 @@
 let num = 0;
 
-// try {
-//     if (num === 0) {
-//         console.log("cant divide by 0");
-//     }
-// } catch (err) {
-//     console.log("divide");
-// }
+try {
+    if (num === 0) {
+        console.log("cant divide by 0");
+    }
+} catch (err) {
+    console.log("divide");
+} finally {
+    console.log("Executed");
+}
 
 const arr = [1, 2, 3, 4, 5, 6, 7]
 
@@ -30,7 +32,7 @@ let data = {
 }
 
 // try {
-//     // let user = JSON.parse(data);  
+//     // let user = JSON.parse(data);
 //     let user = data;
 //     if (!user.bornDate) {
 //         throw new SyntaxError("Incomplete data: No bornDate");
