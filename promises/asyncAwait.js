@@ -30,8 +30,6 @@ let sampleData = {
 const data = async () => {
     try {
         const { title, developer, release_year, main_character, genre } = sampleData;
-
-
         let datas = await new Promise((resolve, reject) => {
             setTimeout(() => {
                 if (!title || !developer || !release_year) {
