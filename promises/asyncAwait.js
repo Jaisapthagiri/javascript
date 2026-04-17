@@ -15,7 +15,7 @@ async function main() {
     console.log("End");
 }
 
-main();
+// main();
 
 // ctrl
 
@@ -35,7 +35,7 @@ const data = async () => {
                 if (!title || !developer || !release_year) {
                     reject("Main Data are missing");
                 } else {
-                    resolve(JSON.stringify(sampleData));
+                    resolve(JSON.stringify(sampleData, null, 2));
                 }
             }, 2000);
         });
@@ -44,3 +44,5 @@ const data = async () => {
         console.log("Error: ", error);
     }
 }
+
+data();
